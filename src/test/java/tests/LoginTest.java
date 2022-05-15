@@ -16,7 +16,6 @@ public class LoginTest extends TestBase {
 
     @Test
     public void fillLoginFormTest() {
-        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         User user = User.builder()
                 .email("noa@gmail.com")
                 .password("Nnoa12345$")
@@ -31,8 +30,7 @@ public class LoginTest extends TestBase {
 
     @Test
     public void negativeLoginTest() {
-        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-        String email = "noa" + i + "gmail.com";
+        String email = "noagmail.com";
         String password = "Nnoa12345$";
         System.out.println("Email: " + email);
 
