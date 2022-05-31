@@ -1,0 +1,25 @@
+3109 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+26747 [Test worker] INFO  tests.TestBase - Test name ----->fillLoginFormTest
+26749 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.xpath: //button[text()='Sign Out']
+39023 [Test worker] INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']was found
+39031 [Test worker] INFO  manager.MyListener - Start search element by locator --->By.cssSelector: [href='/login']
+39102 [Test worker] INFO  manager.MyListener - Something went wrong!
+39144 [Test worker] INFO  manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-ой', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a547e68d1d168efeef6dd0a89c7666d5
+*** Element info: {Using=css selector, value=[href='/login']}
+39145 [Test worker] INFO  manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-ой', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a547e68d1d168efeef6dd0a89c7666d5
+*** Element info: {Using=css selector, value=[href='/login']}
+39151 [Test worker] INFO  tests.TestBase - Test endfillLoginFormTest
